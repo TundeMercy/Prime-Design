@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane prefHeight="1030.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.simplet.Controller">
+   <content>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1020.0" prefWidth="320.0" style="-fx-background-color: #222753;">
+          <children>
+              <Label layoutX="101.0" layoutY="69.0" prefHeight="17.0" prefWidth="117.0" text="PRIME">
+                  <font>
+                      <Font name="System Bold" size="36.0" />
+                  </font>
+                  <textFill>
+                      <LinearGradient endX="1.0" endY="0.8523809523809524" startX="1.0" startY="0.29523809523809524">
+                          <stops>
+                              <Stop color="#ffaa59" />
+                              <Stop color="#ff7a07" offset="1.0" />
+                          </stops>
+                      </LinearGradient>
+                  </textFill>
+              </Label>
+              <Pane layoutY="144.0" prefHeight="72.0" prefWidth="319.0" style="-fx-background-color: #ffffff;">
+                  <children>
+                      <Label layoutX="38.0" layoutY="12.0" prefHeight="47.0" prefWidth="141.0" text="  Dashboard" textFill="#1cc3d0">
+                          <graphic>
+                              <FontAwesomeIconView fill="#1cc3d0" glyphName="COLUMNS" size="32" />
+                          </graphic>
+                          <font>
+                              <Font size="18.0" />
+                          </font>
+                      </Label>
+                  </children>
+              </Pane>
+              <Label layoutX="37.0" layoutY="232.0" onMouseEntered="#handleMouseEnterEvent" onMouseExited="#handleMouseExitEvent" prefHeight="47.0" prefWidth="191.0" text="   Latest Judgement" textFill="#727797">
+                  <font>
+                      <Font size="18.0" />
+                  </font>
+                  <graphic>
+                      <FontAwesomeIconView fill="#727797" glyphName="PLUS_SQUARE_ALT" size="28" />
+                  </graphic>
+              </Label>
+              <Label layoutX="37.0" layoutY="293.0" onMouseEntered="#handleMouseEnterEvent" onMouseExited="#handleMouseExitEvent" prefHeight="47.0" prefWidth="191.0" text="   Law Reports" textFill="#727797">
+                  <font>
+                      <Font size="18.0" />
+                  </font>
+                  <graphic>
+                      <FontAwesomeIconView fill="#727797" glyphName="FILE_ALT" size="28" />
+                  </graphic>
+              </Label>
+              <Label layoutX="37.0" layoutY="351.0" onMouseEntered="#handleMouseEnterEvent" onMouseExited="#handleMouseExitEvent" prefHeight="47.0" prefWidth="191.0" text="   Laws of Nigeria" textFill="#727797">
+                  <font>
+                      <Font size="18.0" />
+                  </font>
+                  <graphic>
+                      <FontAwesomeIconView fill="#727797" glyphName="BOOK" size="28" />
+                  </graphic>
+              </Label>
+              <Label layoutX="37.0" layoutY="414.0" onMouseEntered="#handleMouseEnterEvent" onMouseExited="#handleMouseExitEvent" prefHeight="47.0" prefWidth="227.0" text="   Civil Procedure Rules" textFill="#727797">
+                  <font>
+                      <Font size="18.0" />
+                  </font>
+                  <graphic>
+                      <FontAwesomeIconView fill="#727797" glyphName="LIST_ALT" size="28" />
+                  </graphic>
+              </Label>
+              <Label layoutX="37.0" layoutY="561.0" onMouseEntered="#handleMouseEnterEvent" onMouseExited="#handleMouseExitEvent" prefHeight="47.0" prefWidth="227.0" text="   Textbooks &amp; Journals" textFill="#727797">
+                  <font>
+                      <Font size="18.0" />
+                  </font>
+                  <graphic>
+                      <FontAwesomeIconView fill="#727797" glyphName="EDIT" size="28" />
+                  </graphic>
+              </Label>
+              <Label layoutX="37.0" layoutY="646.0" onMouseEntered="#handleMouseEnterEvent" onMouseExited="#handleMouseExitEvent" prefHeight="47.0" prefWidth="227.0" text="   My Research Folder" textFill="#727797">
+                  <font>
+                      <Font size="18.0" />
+                  </font>
+                  <graphic>
+                      <FontAwesomeIconView fill="#727797" glyphName="FOLDER_ALT" size="28" />
+                  </graphic>
+              </Label>
+              <Label layoutX="37.0" layoutY="489.0" onMouseEntered="#handleMouseEnterEvent" onMouseExited="#handleMouseExitEvent" prefHeight="47.0" prefWidth="227.0" text="   Index &amp; Digest" textFill="#727797">
+                  <font>
+                      <Font size="18.0" />
+                  </font>
+                  <graphic>
+                      <FontAwesomeIconView fill="#727797" glyphName="LIST" size="28" />
+                  </graphic>
+              </Label>
+              <Label layoutX="37.0" layoutY="726.0" onMouseEntered="#handleMouseEnterEvent" onMouseExited="#handleMouseExitEvent" prefHeight="47.0" prefWidth="227.0" text="   Words In Gold" textFill="#f6b603">
+                  <font>
+                      <Font size="18.0" />
+                  </font>
+                  <graphic>
+                      <FontAwesomeIconView fill="#f6b603" glyphName="CERTIFICATE" size="28" />
+                  </graphic>
+              </Label>
+              <Label layoutX="37.0" layoutY="808.0" onMouseEntered="#handleMouseEnterEvent" onMouseExited="#handleMouseExitEvent" prefHeight="47.0" prefWidth="227.0" text="   New Content" textFill="#727797">
+                  <font>
+                      <Font size="18.0" />
+                  </font>
+                  <graphic>
+                      <FontAwesomeIconView fill="#727797" glyphName="PLUS_SQUARE_ALT" size="28" />
+                  </graphic>
+              </Label>
+              <Label layoutX="35.0" layoutY="897.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="229.0" style="-fx-border-radius: 40; -fx-background-radius: 40; -fx-background-color: linear-gradient(to right,#FF5501,#FF9241);" text="AI Assisted Search" textFill="WHITE">
+                  <font>
+                      <Font size="18.0" />
+                  </font>
+               <graphic>
+                  <ImageView cache="true" fitHeight="44.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Avatar_head@2x.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+              </Label>
+            <Label fx:id="close" layoutX="282.0" layoutY="-3.0" onMouseClicked="#close" onMouseEntered="#handleMouseEnterEvent" onMouseExited="#handleMouseExitEvent" prefHeight="35.0" prefWidth="8.0" text="x" textFill="#fe8c23">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+          </children>
+      </Pane>
+   </content>
+</ScrollPane>
